@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pass - Your Personal Password Manager</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <body background="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pass - Your Personal Password Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <body background="">
     <nav>
       <div class="logo">PassPA</div>
       <ul>
@@ -33,38 +36,43 @@
         </tr>
       </table>
       <br>
-      <form action="/submit" method="post">
-        <div class="login-container">
-          <img src="" alt="Lotus Logo" class="logo">
-          <h2>Add your Passwords</h2>
-          <div class="inputContainer">
-                  <!-- Text input for website -->
-                  <label for="website">Website:</label>
-                  <input type="text" id="website" name="website" required/>
-                  <br><br>
-                  <!-- Text input for username -->
-                  <label for="username">Username:</label>
-                  <input type="text" id="username" name="username" required/>
-                  <br><br>
-                  <!-- Password input -->
-                  <label for="password">Password:</label>
-                  <input type="password" id="password" name="password" required/>
-                  <br>
-                <!-- Submit button -->
+      <div class="beforeFormContainer">
+        <div class="formContainer">
+          <div class="left-content">
+            <img src="login-inner-img.png" alt="">
           </div>
-        <button class="btn" type="submit">Submit</button>
-      </form>
+          <form action="/submit" method="post">
+            <div class="login-container">
+              <img src="" alt="Lotus Logo" class="logo">
+              <h2>Add your Passwords</h2>
+              <div class="inputContainer">
+                <!-- Text input for website -->
+                <label for="website">Website:</label>
+                <input type="text" id="website" name="website" required />
+                <br><br>
+                <!-- Text input for username -->
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required />
+                <br><br>
+                <!-- Password input -->
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required />
+                <br>
+                <!-- Submit button -->
+              </div>
+              <button class="btn" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
     </div>
     <footer>
-        <div class="footer-content">
-          <p>&copy; 2025 PassPA. All rights reserved.</p>
-          <p>Designed by gautam</p>
-        </div>
-      </footer>
+      <div class="footer-content">
+        <p>&copy; 2025 PassPA. All rights reserved.</p>
+        <p>Designed by gautam</p>
+      </div>
+    </footer>
     <script src="script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/cbad4bdd38.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/cbad4bdd38.js" crossorigin="anonymous"></script>
   </body>
+
 </html>
