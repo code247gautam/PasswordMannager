@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    background-color: rgb(26, 7, 235);
+    color: white;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+    cursor: pointer;
+}
+/* Apply to the body or any element */
+body {
+    background: #7F00FF; 
+    background: -webkit-linear-gradient(to right, #E100FF, #7F00FF);
+    background: linear-gradient(to right, #E100FF, #7F00FF);
+  }
+  .login-container {
+    
+    background-color: #eeeff3;
+    padding: 40px;
+    justify-content: center;
+    border-radius: 10px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+ul > li:hover{
+    color: white;
+
+}
+table, td, tr{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+h1, h2, h3 {
+    margin: 23px 0;
+}
+.btn{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        width: 50%;
+        background: linear-gradient(to right, hsl(240, 91%, 49%), #1774d8);
+        color: white;
+        font-weight: bold;
+        margin: 25px;
+        cursor: pointer;
+}
+.btnsm{ 
+    padding: 8px 17px;
+    background: #f70606;
+    color: white;
+    font-weight: 900;
+    border: 2px solid rgb(236, 100, 16);
+    border-radius: 8px; 
+    cursor: pointer;
+}
+img{
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+footer {
+    background-color: #410ae6;
+    color: #fff;
+    text-align: center;
+    padding: 1px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-content p {
+    margin: 1px;
+}
+
+#alert{
+    display: none;
+}
+i{
+    cursor:pointer;
+}
+form {
+    > div{
+        > .inputContainer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid red;
+            > input {
+                padding: 10px;
+                border: none;
+                border-radius: 5.5px;
+                background-color: #c0c2c0;
+                color: white;
+              }
+        }
+        
+        }
+    }
+
